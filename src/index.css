@@ -30,7 +30,7 @@
 }
 
 body {
-  background: #010103;
+  background: #F8F9FA;
   font-family: 'Satoshi-Medium', sans-serif;
 }
 
@@ -48,11 +48,11 @@ body {
   }
 
   .nav-li {
-    @apply text-neutral-400 hover:text-white font-satoshiMedium max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+    @apply text-block hover:text-white font-satoshiMedium max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-white transition-colors;
+    @apply text-lg md:text-base hover:text-cherry transition-colors;
   }
 
   .nav-sidebar {
@@ -60,20 +60,20 @@ body {
   }
 
   .text-gray_gradient {
-    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#495057] from-60% via-[#343a40] via-80% to-[#212529] to-100% bg-clip-text text-transparent;
   }
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
+    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-block font-satoshiBold transition-all active:scale-95 text-white mx-auto;
   }
 
   .btn-ping {
-    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75;
+    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-cherry opacity-75;
   }
 
   .btn-ping_dot {
-    @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
+    @apply relative inline-flex rounded-full h-3 w-3 bg-cherry;
   }
 
   /* hero section */

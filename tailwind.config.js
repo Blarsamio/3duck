@@ -18,7 +18,7 @@ export default {
           600: '#1A1A1A',
         },
         white: {
-          DEFAULT: '#FFFFFF',
+          DEFAULT: '#E9ECEF',
           800: '#E4E4E6',
           700: '#D6D9E9',
           600: '#AFB0B6',
@@ -28,7 +28,8 @@ export default {
         cherry: '#ffb7c3',
         columbia: '#a7c6da',
         gun: '#2C363F',
-        block: '#040403'
+        block: '#212529',
+        salt: '#F8F9FA'
       },
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",
