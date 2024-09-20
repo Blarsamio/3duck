@@ -1,9 +1,10 @@
-import React from 'react'
-import {useGLTF, useTexture} from '@react-three/drei'
+import {  useGLTF, useTexture } from '@react-three/drei'
+import { inSphere } from "maath/random";
+
+console.log(inSphere)
 
 const HackerRoom = (props) => {
     const { nodes, materials } = useGLTF('/models/hacker-room.glb')
-    const monitorTexture = useTexture('textures/desk/monitor.png');
     const screenTexture = useTexture('textures/desk/screen.png')
     return (
         <group {...props} dispose={null}>

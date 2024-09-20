@@ -1,5 +1,5 @@
 import {Suspense} from 'react'
-import {Canvas} from '@react-three/fiber';
+import {Canvas } from '@react-three/fiber';
 import {PerspectiveCamera} from '@react-three/drei';
 import CanvasLoader from '../components/CanvasLoader.jsx';
 import HackerRoom from '../components/HackerRoom.jsx';
@@ -7,7 +7,6 @@ import {calculateSizes} from "../constants/index.js";
 import {useMediaQuery} from "react-responsive";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
-
 
 const Hero = () => {
     const isSmall = useMediaQuery({maxWidth: 440});
