@@ -6,21 +6,21 @@
 
 @font-face {
   font-family: 'Satoshi-Black';
-  src: url('../public/fonts/Satoshi-Black.woff2') format('woff2');
+  src: url('../fonts/Satoshi-Black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Satoshi-Bold';
-  src: url('../public/fonts/Satoshi-Bold.woff2') format('woff2');
+  src: url('../fonts/Satoshi-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Satoshi-Medium';
-  src: url('../public/fonts/Satoshi-Medium.woff2') format('woff2');
+  src: url('../fonts/Satoshi-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
@@ -36,13 +36,17 @@ body {
   auto;
 }
 
+cursor {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMwLjUgMTZDMzAuNSAyNC4wMDgxIDI0LjAwODEgMzAuNSAxNiAzMC41QzcuOTkxODcgMzAuNSAxLjUgMjQuMDA4MSAxLjUgMTZDMS41IDcuOTkxODcgNy45OTE4NyAxLjUgMTYgMS41QzI0LjAwODEgMS41IDMwLjUgNy45OTE4NyAzMC41IDE2WiIgc3Ryb2tlPSJibGFjayIvPgo8cGF0aCBkPSJNNiA5QzcuNjU2ODUgOSA5IDcuNjU2ODUgOSA2QzkgNC4zNDMxNSA3LjY1Njg1IDMgNiAzQzQuMzQzMTUgMyAzIDQuMzQzMTUgMyA2QzMgNy42NTY4NSA0LjM0MzE1IDkgNiA5WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg=="),
+}
+
 @layer utilities {
   .c-space {
     @apply sm:px-10 px-5;
   }
 
   .head-text {
-    @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
+    @apply sm:text-4xl text-3xl font-semibold;
   }
 
   .nav-ul {
@@ -50,11 +54,11 @@ body {
   }
 
   .nav-li {
-    @apply text-block hover:text-white font-satoshiMedium max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+    @apply text-block font-satoshiMedium max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-cherry transition-colors;
+    @apply text-lg md:text-base transition-colors;
   }
 
   .nav-sidebar {
@@ -67,15 +71,15 @@ body {
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-block font-satoshiBold transition-all active:scale-95 text-white mx-auto;
+    @apply flex gap-4 items-center justify-center p-3 rounded-md font-satoshiBold transition-all active:scale-95 mx-auto;
   }
 
   .btn-ping {
-    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-cherry opacity-75;
+    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-raspberry opacity-75;
   }
 
   .btn-ping_dot {
-    @apply relative inline-flex rounded-full h-3 w-3 bg-cherry;
+    @apply relative inline-flex rounded-full h-3 w-3 bg-raspberry;
   }
 
   /* hero section */
@@ -85,24 +89,24 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full bg-cherry rounded-xl sm:p-7 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-white font-satoshiMedium;
+    @apply text-xl font-semibold mb-2 text-raspberry font-satoshiBold;
   }
 
   .grid-subtext {
-    @apply text-[#afb0b6] text-base font-satoshiMedium;
+    @apply text-raspberry/80 text-base font-satoshiMedium;
   }
 
   .copy-container {
-    @apply cursor-pointer flex justify-center items-center gap-2;
+    @apply  flex justify-center items-center gap-2;
   }
 
   /* projects section  */
   .arrow-btn {
-    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
+    @apply w-10 h-10 p-3  active:scale-95 transition-all rounded-full arrow-gradient;
   }
 
   .tech-logo {
@@ -115,7 +119,7 @@ body {
   }
 
   .client-review {
-    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
+    @apply rounded-lg md:p-10 p-5 col-span-1 bg-peach bg-opacity-50;
   }
 
   .client-content {
@@ -136,7 +140,7 @@ body {
   }
 
   .work-content_container {
-    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
+    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
   }
 
   .work-content_logo {
@@ -153,15 +157,15 @@ body {
   }
 
   .field-label {
-    @apply text-lg text-white-600;
+    @apply text-lg text-mustard font-satoshiBold;
   }
 
   .field-input {
-    @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
+    @apply w-full bg-salt px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 focus:outline-none;
   }
 
   .field-btn {
-    @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
+    @apply bg-mustard px-5 py-2 min-h-12 rounded-lg flex justify-center items-center text-lg text-salt gap-3;
   }
 
   .field-btn_arrow {

@@ -24,12 +24,17 @@ export default {
           600: '#AFB0B6',
           500: '#62646C',
         },
-        vanilla: '#e1dd95',
-        cherry: '#ffb7c3',
-        columbia: '#a7c6da',
-        gun: '#2C363F',
+        cherry: '#ffc2cb',
         block: '#212529',
-        salt: '#F8F9FA'
+        salt: '#F8F9FA',
+        raspberry: "#d32254",
+        ablue: "#55b1ff",
+        indigo: "#0c4c82",
+        peach: "#F2C39F",
+        cocoa: "#E07109",
+        lavender: "#C9D3E9",
+        mustard: "#f5c000",
+        vanilla: "#fff2c2"
       },
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",
