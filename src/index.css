@@ -71,7 +71,7 @@ cursor {
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center p-3 rounded-md font-satoshiBold transition-all active:scale-95 mx-auto hover:cursor-wait;
+    @apply flex gap-4 items-center justify-center p-3 rounded-md font-satoshiBold transition-all active:scale-95 mx-auto hover:cursor-default;
   }
 
   .btn-ping {
@@ -93,11 +93,11 @@ cursor {
   }
 
   .grid-headtext {
-    @apply text-xl font-semibold mb-2 text-raspberry font-satoshiBold;
+    @apply text-3xl font-satoshiBold mb-2 text-raspberry;
   }
 
   .grid-subtext {
-    @apply text-raspberry/80 text-base font-satoshiMedium;
+    @apply text-raspberry/80 text-3xl font-satoshiMedium;
   }
 
   .copy-container {

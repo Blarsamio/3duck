@@ -28,7 +28,7 @@ export const clientReviews = [
     position: "Marketing Director at GreenLeaf",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Patricio was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const clientReviews = [
     position: "Founder of TechGear Shop",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Patricio’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const clientReviews = [
     position: "Project Manager at UrbanTech ",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Patricio. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const clientReviews = [
     position: "CEO of BrightStar Enterprises",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Patricio was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
   },
 ];
 
@@ -217,32 +217,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Le Wagon",
-    pos: "Lead Teacher",
-    duration: "2022 - Present",
+    name: "le wagon",
+    pos: "lead teacher",
+    duration: "2022 - present",
     title:
-      "Le Wagon is a coding bootcamp that teaches students how to code from scratch. As a lead teacher, I am responsible for creating and delivering the curriculum, providing guidance and support to students, and helping them develop the skills they need to succeed in the tech industry.",
-    icon: "/assets/lewagon.png",
-    animation: "victory",
+      "le wagon is a coding bootcamp that teaches students how to code from scratch. as a lead teacher, i am responsible for creating and delivering the curriculum, providing guidance and support to students, and helping them develop the skills they need to succeed in the tech industry.",
+    icon: "/assets/lewagon.png"
   },
   {
     id: 2,
-    name: "Mobile World Capital",
-    pos: "Mentor",
-    duration: "2022 - Present",
+    name: "mobile world capital",
+    pos: "mentor",
+    duration: "2022 - present",
     title:
-      "Mobile World Capital is a non-profit organization that promotes the digital transformation of society. As a mentor, I work with startups and entrepreneurs to help them develop their ideas and turn them into successful businesses.",
-    icon: "/assets/mwc.png",
-    animation: "clapping",
+      "mobile world capital is a non-profit organization that promotes the digital transformation of society. as a mentor, i work with startups and entrepreneurs to help them develop their ideas and turn them into successful businesses.",
+    icon: "/assets/mwc.png"
   },
   {
     id: 3,
-    name: "Metarina",
-    pos: "Junior Full Stack Developer",
+    name: "metarina",
+    pos: "junior full stack developer",
     duration: "2019 - 2020",
     title:
-      "Metarina is a state-of-the-art marina management software. As a junior full stack developer, I was responsible for developing new features, fixing bugs, and maintaining the codebase.",
-    icon: "/assets/metarina.png",
-    animation: "salute",
+      "metarina is a state-of-the-art marina management software. as a junior full stack developer, i was responsible for developing new features, fixing bugs, and maintaining the codebase.",
+    icon: "/assets/metarina.png"
   },
 ];

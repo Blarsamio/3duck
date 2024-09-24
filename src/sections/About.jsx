@@ -16,35 +16,30 @@ const About = () => {
       <p className="head-text text-raspberry">about me</p>
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full mt-12">
         <div className="col-span-1 xl:row-span-3">
-          <div className="grid-container">
-            <img
-              src="/assets/grid1.png"
-              alt="grid-1"
-              className="w-full sm:h-[276px] h-fit object-contain"
-            />
-            <div>
-              <p className="grid-headtext">Hi, I'm Patricio</p>
-              <p className="grid-subtext">
-                With 3 years of experience, I have honed my skills in frontend
-                and backend development with a focus on animated 3D websites.
-              </p>
+          <div className="grid-container justify-center">
+          <div className="flex flex-col gap-y-2">
+              <p className="grid-headtext">patricio pérez herrero</p>
+              <p className="grid-headtext">33 years old</p>
+              <p className="grid-headtext">born in tucumán, argentina</p>
+              <p className="grid-headtext">full stack developer</p>
+              <p className="grid-headtext">designer</p>
+              <p className="grid-subtext">everyone calls me pato (spanish for duck) <span className="text-base">* hence all the ducks</span></p>
             </div>
           </div>
         </div>
 
         <div className="col-span-1 xl:row-span-3">
-          <div className="grid-container">
-            <img
-              src="assets/grid2.png"
-              alt="grid2"
-              className="w-full sm:h-[276px] h-fit object-contain"
-            />
-            <div>
-              <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
-                I specialize in JavaScript/TypeScript with a focus on React and
-                Next.Js ecosystems
-              </p>
+          <div className="grid-container justify-center">
+            <div className="flex flex-col gap-y-2">
+              <p className="grid-headtext">tech stack:</p>
+              <p className="grid-subtext">- ruby on rails</p>
+              <p className="grid-subtext">- react</p>
+              <p className="grid-subtext">- typescript</p>
+              <p className="grid-subtext">- next.js</p>
+              <p className="grid-subtext">- three.js</p>
+              <p className="grid-subtext">- python</p>
+              <p className="grid-subtext">- figma</p>
+              <p className="grid-subtext">- blender</p>
             </div>
           </div>
         </div>
@@ -74,10 +69,10 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+                i&apos;m flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Bern, Switzerland and open to remote work
+                based in bern, switzerland and open to remote work
                 worldwide.
               </p>
               <Button
@@ -91,30 +86,25 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="assets/grid3.png"
+              src="assets/teaching.jpg"
               alt="grid-3"
-              className="w-full sm:h-[266px] h-fit object-contain"
+              className="w-full sm:h-[266px] h-fit object-cover rounded-xl"
             />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">my passion for teaching</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                i&apos;ve been a teacher for over ten years, teaching
+                programming, design, and english. i love sharing my knowledge
+                and helping others grow.
               </p>
             </div>
           </div>
         </div>
         <div className="xl:col-span-1 xl:row-span-2">
-          <div className="grid-container">
-            <img
-              src="assets/grid4.png"
-              alt="grid-4"
-              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
-            />
+          <div className="grid-container justify-center">
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">just contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-raspberry">patriciopherrero@gmail.com</p>

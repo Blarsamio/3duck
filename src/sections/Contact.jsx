@@ -70,15 +70,15 @@ const Contact = () => {
 
       <div className="relative min-h-screen flex items-center justify-center flex-col bg-vanilla rounded-xl">
         <div className="contact-container">
-          <h3 className="head-text font-satoshiBold text-mustard">Let's talk</h3>
-          <p className="text-lg font-satoshiMedium text-mustard mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+          <h3 className="head-text font-satoshiBold text-mustard">let's talk</h3>
+          <p className="text-xl font-satoshiMedium text-mustard mt-3">
+            whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
+            life, i'm here to help
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
             <label className="space-y-3">
-              <span className="field-label text-mustard">Full Name</span>
+              <span className="field-label text-mustard">full name</span>
               <input
                 type="text"
                 name="name"
@@ -91,7 +91,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Email address</span>
+              <span className="field-label">email address</span>
               <input
                 type="email"
                 name="email"
@@ -104,7 +104,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Your message</span>
+              <span className="field-label">your message</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -117,7 +117,7 @@ const Contact = () => {
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Send Message'}
+              {loading ? 'sending...' : 'send cuack!'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>

@@ -11,7 +11,7 @@ const Experience = () => {
           <div className="work-content py-10">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
               {workExperiences.map(
-                ({ name, pos, duration, title, animation, id, icon }) => {
+                ({ name, pos, duration, title, id, icon }) => {
                   return (
                     <div key={id} className="work-content_container group">
                       <div className="flex flex-col h-full justify-start items-center py-2">
@@ -25,11 +25,11 @@ const Experience = () => {
                         <div className="work-content_bar" />
                       </div>
                       <div className="sm:p-5 px-2.5 py-5 group-hover:text-salt transition ease-in-out duration-500">
-                        <p className="font-satoshiBold text-lg">{name}</p>
-                        <p className="text-sm mb-5">
+                        <p className="font-satoshiBold text-3xl">{name}</p>
+                        <p className="text-lg mb-5 mt-2">
                           {pos} | {duration}
                         </p>
-                        <p className="font-satoshiMedium">
+                        <p className="font-satoshiMedium text-xl lowercase">
                           {title}
                         </p>
                       </div>

@@ -18,13 +18,12 @@ const Hero = () => {
     return (
         <section className='min-h-screen w-full flex flex-col relative' id='home'>
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-                <p className="hero_tag text-cherry">Bringing life into code, <br/>and code into life.</p>
+                <p className="hero_tag text-cherry">bringing life into code, <br/>and code into life.</p>
             </div>
 
             <div className="w-full h-full absolute inset-0">
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader/>}>
-                        {/* To hide controller */}
                         <PerspectiveCamera makeDefault position={[0, 0, 0]}/>
                         <HeroCamera isMobile={isMobile}>
                           <Ducky scale={sizes.duckScale} position={sizes.duckPosition} />
@@ -36,7 +35,7 @@ const Hero = () => {
             </div>
             <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
                 <a href="#contact" className='w-fit'>
-                    <Button name="Let's work together" isBeam containerClass='sm:w-fit w-fit sm:min-w-96 bg-cherry text-raspberry' />
+                    <Button name="let's work together" isBeam containerClass='sm:w-fit w-fit sm:min-w-96 bg-cherry text-salt' />
                 </a>
             </div>
         </section>

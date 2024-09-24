@@ -43,10 +43,10 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
-            <p className="text-indigo text-2xl font-satoshiBold animatedText">{currentProject.title}</p>
+            <p className="text-indigo text-2xl font-satoshiBold animatedText lowercase">{currentProject.title}</p>
 
-            <p className="animatedText text-indigo">{currentProject.desc}</p>
-            <p className="animatedText text-indigo">{currentProject.subdesc}</p>
+            <p className="animatedText text-indigo lowercase">{currentProject.desc}</p>
+            <p className="animatedText text-indigo lowercase">{currentProject.subdesc}</p>
           </div>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
@@ -63,8 +63,8 @@ const Projects = () => {
               href={currentProject.href}
               target="_blank"
               rel="noreferrer">
-              <p>Check Live Site</p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              <p>check live site</p>
+              <img src="/assets/duck.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>
 
