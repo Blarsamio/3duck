@@ -71,7 +71,7 @@ cursor {
 
   /* button component */
   .btn {
-    @apply flex gap-4 items-center justify-center p-3 rounded-md font-satoshiBold transition-all active:scale-95 mx-auto;
+    @apply flex gap-4 items-center justify-center p-3 rounded-md font-satoshiBold transition-all active:scale-95 mx-auto hover:cursor-wait;
   }
 
   .btn-ping {
@@ -161,7 +161,7 @@ cursor {
   }
 
   .field-input {
-    @apply w-full bg-salt px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 focus:outline-none;
+    @apply w-full bg-salt px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-mustard focus:outline-none;
   }
 
   .field-btn {
@@ -174,7 +174,7 @@ cursor {
 
   /*  footer */
   .social-icon {
-    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
+    @apply w-12 h-12 rounded-full flex justify-center items-center;
   }
 }
 
