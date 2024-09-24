@@ -58,15 +58,15 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Duckify - Video Sharing Mobile APP",
+    desc: "Duckify is a revolutionary platform that transforms the way ducks are seen. With advanced AI-powered features like transforming any single duck video into whatever your imagination wants with a single prompt.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+      "Built as a unique app with Expo, Nativewind, React Native and Appwrite, Duckify is designed for optimal performance and scalability.",
     href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/duck.png",
     logoStyle: {
-      backgroundColor: "#2A1816",
+      backgroundColor: "transparent",
       border: "0.2px solid #36201D",
       boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
@@ -84,13 +84,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "React Native",
+        path: "/assets/native.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Expo",
+        path: "/assets/expo.svg",
       },
     ],
   },
@@ -99,11 +99,11 @@ export const myProjects = [
     desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
     subdesc:
       "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    href: "https://docu-manager.vercel.app/sign-in",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
-      backgroundColor: "#13202F",
+      backgroundColor: "transparent",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
@@ -116,8 +116,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "Liveblocks",
+        path: "assets/liveblocks.png",
       },
       {
         id: 3,
@@ -126,47 +126,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Next.js",
+        path: "/assets/next.svg",
       },
     ],
   },
@@ -175,11 +136,11 @@ export const myProjects = [
     desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    href: "https://banking-app-five-mu.vercel.app/sign-in",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
-      backgroundColor: "#0E1F38",
+      backgroundColor: "transparent",
       border: "0.2px solid #0E2D58",
       boxShadow: "0px 0px 60px 0px #2F67B64D",
     },
@@ -187,13 +148,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/assets/next.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "React",
+        path: "assets/react.svg",
       },
       {
         id: 3,
@@ -202,21 +163,21 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Appwrite",
+        path: "/assets/appwrite.png",
       },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "A-campo - Landing Page",
+    desc: "A-campo is a beautiful landing page that showcases the beauty of nature and the great outdoors. It features stunning visuals and engaging content that captivates visitors and encourages them to explore the world around them.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
+      "Built with Next.js 14, React, TailwindCSS and TypeScript, A-campo is designed to provide a seamless user experience and ensure optimal performance.",
     href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
     texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+    logo: "/assets/camp.png",
     logoStyle: {
-      backgroundColor: "#1C1A43",
+      backgroundColor: "transparent",
       border: "0.2px solid #252262",
       boxShadow: "0px 0px 60px 0px #635BFF4D",
     },
@@ -239,8 +200,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Next.js",
+        path: "/assets/next.svg",
       },
     ],
   },
@@ -248,68 +209,40 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-    cubePosition: isSmall
-      ? [4, -5, 0]
-      : isMobile
-      ? [5, -5, 0]
-      : isTablet
-      ? [5, -5, 0]
-      : [9, -5.5, 0],
-    reactLogoPosition: isSmall
-      ? [3, 4, 0]
-      : isMobile
-      ? [5, 4, 0]
-      : isTablet
-      ? [5, 4, 0]
-      : [12, 3, 0],
-    ringPosition: isSmall
-      ? [-5, 7, 0]
-      : isMobile
-      ? [-10, 10, 0]
-      : isTablet
-      ? [-12, 10, 0]
-      : [-24, 10, 0],
-    targetPosition: isSmall
-      ? [-5, -10, -10]
-      : isMobile
-      ? [-9, -10, -10]
-      : isTablet
-      ? [-11, -7, -10]
-      : [-13, -13, -10],
+    duckScale: isSmall ? 0.5 : isMobile ? 1 : 1,
+    duckPosition: isMobile ? [0, 0, 0] : [0, 0, 0.5],
   };
 };
 
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
+    name: "Le Wagon",
+    pos: "Lead Teacher",
     duration: "2022 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "Le Wagon is a coding bootcamp that teaches students how to code from scratch. As a lead teacher, I am responsible for creating and delivering the curriculum, providing guidance and support to students, and helping them develop the skills they need to succeed in the tech industry.",
+    icon: "/assets/lewagon.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Mobile World Capital",
+    pos: "Mentor",
+    duration: "2022 - Present",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Mobile World Capital is a non-profit organization that promotes the digital transformation of society. As a mentor, I work with startups and entrepreneurs to help them develop their ideas and turn them into successful businesses.",
+    icon: "/assets/mwc.png",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
+    name: "Metarina",
+    pos: "Junior Full Stack Developer",
     duration: "2019 - 2020",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Metarina is a state-of-the-art marina management software. As a junior full stack developer, I was responsible for developing new features, fixing bugs, and maintaining the codebase.",
+    icon: "/assets/metarina.png",
     animation: "salute",
   },
 ];

@@ -7,6 +7,7 @@ import {calculateSizes} from "../constants/index.js";
 import {useMediaQuery} from "react-responsive";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import Ducky from "../components/Ducky.jsx";
 
 const Hero = () => {
     const isSmall = useMediaQuery({maxWidth: 440});
@@ -24,10 +25,9 @@ const Hero = () => {
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader/>}>
                         {/* To hide controller */}
-                        <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
+                        <PerspectiveCamera makeDefault position={[0, 0, 0]}/>
                         <HeroCamera isMobile={isMobile}>
-                            <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition}
-                                        rotation={[0.1, -Math.PI, 0]}/>
+                          <Ducky scale={sizes.duckScale} position={sizes.duckPosition} />
                         </HeroCamera>
                         <ambientLight intensity={1.2}/>
                         <directionalLight position={[25, 10, 10]} intensity={5}/>
