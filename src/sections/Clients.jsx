@@ -3,7 +3,7 @@ import { clientReviews } from '../constants/index.js';
 const Clients = () => {
   return (
     <section className="c-space my-20">
-      <h3 className="head-text text-cocoa font-satoshiBold">what my clients say</h3>
+      <h3 className="head-text text-cocoa font-satoshiBold">what people say about me</h3>
 
       <div className="client-container">
         {clientReviews.map((item) => (

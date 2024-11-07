@@ -24,76 +24,39 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Fanny Rojon",
+    position: "General Manager at Expanish",
     img: "assets/review1.png",
     review:
-      "Working with Patricio was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "I hired Patricio as a Batch Manager & Teacher after the Web Development bootcamp he did as a student. Patricio is a gem. A wonderful reliable and talented professional with a positive attitude and a very calming energy. He has been such a great addition to the team, and a great comfort to me as a manager, I'm forever thankful for all the support he gave me, and I really hope our paths cross again in the future.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Leon Entrup",
+    position: "CTO and co-founder at Metarina",
     img: "assets/review2.png",
     review:
-      "Patricio’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Patricio came into the company when he was fresh out of his bootcamp, he was always eager to learn and face new challenges. In a matter of months he was already building complex features by himself, no task was big enough, if there was something he wouldn't know how to do, he wouldn't rest until he'd learn how to do it. A clear communicator, great teammate and always had a smile on his face. ",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
+    name: "Valentina Marun",
+    position: "Co-founder at Vandals",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Patricio. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Pato, a great friend and a great client. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding and his way of interacting with people is admirable. He can do everything, from design to code to prepare the best mates 🧉",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "Juan Bernardo Lince",
+    position: "City Manager at Le Wagon Barcelona",
     img: "assets/review4.png",
     review:
-      "Patricio was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "I had the pleasure of working with Patricio at Le Wagon Barcelona. Patricio is an invaluable member of the team, bringing a unique blend of professionalism, talent, and an unwavering positive attitude, his energy uplifts both students and colleagues alike. Helped me quite a lot as I settled into my role as City Manager. I am deeply thankful for the guidance and stability he provided during my transition",
   },
 ];
 
 export const myProjects = [
-  {
-    title: "Duckify - Video Sharing Mobile APP",
-    desc: "Duckify is a revolutionary platform that transforms the way ducks are seen. With advanced AI-powered features like transforming any single duck video into whatever your imagination wants with a single prompt.",
-    subdesc:
-      "Built as a unique app with Expo, Nativewind, React Native and Appwrite, Duckify is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/duck.png",
-    logoStyle: {
-      backgroundColor: "transparent",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    spotlight: "/assets/spotlight1.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "React Native",
-        path: "/assets/native.svg",
-      },
-      {
-        id: 4,
-        name: "Expo",
-        path: "/assets/expo.svg",
-      },
-    ],
-  },
   {
     title: "LiveDoc - Real-Time Google Docs Clone",
     desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
@@ -169,11 +132,48 @@ export const myProjects = [
     ],
   },
   {
+    title: "Duckify - Video Sharing Mobile APP",
+    desc: "Duckify is a revolutionary platform that transforms the way ducks are seen. With advanced AI-powered features like transforming any single duck video into whatever your imagination wants with a single prompt.",
+    subdesc:
+      "Built as a unique app with Expo, Nativewind, React Native and Appwrite, Duckify is designed for optimal performance and scalability.",
+    href: "",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/duck.png",
+    logoStyle: {
+      backgroundColor: "transparent",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "React Native",
+        path: "/assets/native.svg",
+      },
+      {
+        id: 4,
+        name: "Expo",
+        path: "/assets/expo.svg",
+      },
+    ],
+  },
+  {
     title: "A-campo - Landing Page",
     desc: "A-campo is a beautiful landing page that showcases the beauty of nature and the great outdoors. It features stunning visuals and engaging content that captivates visitors and encourages them to explore the world around them.",
     subdesc:
       "Built with Next.js 14, React, TailwindCSS and TypeScript, A-campo is designed to provide a seamless user experience and ensure optimal performance.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    href: "/public/assets/acampo.png",
     texture: "/textures/project/project5.mp4",
     logo: "/assets/camp.png",
     logoStyle: {
