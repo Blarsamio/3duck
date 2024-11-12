@@ -76,7 +76,7 @@ const Contact = () => {
             life, i'm here to help
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7 lowercase">
             <label className="space-y-3">
               <span className="field-label text-mustard">full name</span>
               <input
@@ -86,7 +86,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="ex., nelson muntz"
               />
             </label>
 
@@ -99,7 +99,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="ex., nelson.muntz@gmail.com"
               />
             </label>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="share your thoughts or inquiries..."
               />
             </label>
 

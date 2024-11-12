@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <p className='text-indigo'>
-        &copy; 2021 Patricio. All rights reserved.
+        &copy; 2024 Patricio. All rights reserved.
       </p>
     </section>
   )
